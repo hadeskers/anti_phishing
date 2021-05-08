@@ -70,8 +70,8 @@ function generatePassword(){
 
 let index = 0;
 (async() => {
-	const developer_is_aclone = "yes_or_no?";
-	while(developer_is_aclone){
+	const developer_is_alone = "yes_or_no?";
+	while(developer_is_alone){
 		let email = generateEmail();
 		let pass = generatePassword();
 		let data = {
